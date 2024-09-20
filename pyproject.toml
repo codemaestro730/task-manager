@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "task-manager"
+version = "0.1.0"
+description = ""
+authors = ["Mike Turner <mike__turner@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1"
+djangorestframework = "^3.15.2"
+graphene-django = "^3.2.2"
+psycopg2-binary = "^2.9.9"
+django-filter = "^24.3"
+django-environ = "^0.11.2"
+django-cors-headers = "^4.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
